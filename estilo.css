@@ -1,0 +1,226 @@
+.colorheader {
+    background-color: rgba(24, 8, 38, 0.768);
+    
+}
+
+a {
+color: white; 
+}
+
+
+body {
+    background-image: url(imagens/capa.png),
+                      url(imagens/ruido.png),
+                      linear-gradient(-135deg, #8b00fd8a 40%, purple, rgba(46, 7, 46, 0.823));
+                       
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html, section#home {
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+
+.divisor {
+    background: white;
+    width: 1px;
+    margin: 12px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+
+}
+
+.capa {
+
+    text-align: center;
+
+}
+
+h1 {
+    letter-spacing: -0.05rem;
+    margin-bottom: 2rem;
+}
+
+.btn-branco {
+    border: 1px solid white;
+    background-color: rgba(75, 0, 181, 0);
+}
+
+.btn-branco:hover {
+    transition: all 0.6s;
+    background-color: white;
+    color: black;
+}
+
+.btn-roxo {
+    background-color: rgb(75, 0, 181);
+    border: 0;
+}
+
+.btn-roxo:hover {
+    background-color: rgb(255, 0, 68);
+    transition: all 0.6s;
+    color: white;
+    
+}
+
+.btn-costum {
+
+    
+    color: white;
+    border-radius: 500px;
+    padding: 15px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+    
+
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
+
+.albuns {
+	padding: 10px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 340px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-branco {
+		margin-top: 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
+
+
+
+
+#content {
+    background-color: white;
+}
+
+
+h2 {
+
+    font-weight: 700;
+    letter-spacing: -0.04px;
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: 700;
+    letter-spacing: -1.3px;
+    font-size: 2em;
+
+}
+
+#content h2, h3 {
+    color: rgb(162, 0, 202);
+}
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
